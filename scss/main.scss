@@ -7,8 +7,8 @@
 @import "https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&family=PT+Serif:ital,wght@0,700;1,700&display=swap";
 
 #titulo-1 {
-	background: rgb(177,196,195);
-	background: linear-gradient(90deg, rgba(177,196,195,1) 0%, rgba(170,176,170,0.3169642857142857) 0%, rgba(185,212,205,1) 0%, rgba(166,165,157,0) 100%, rgba(153,168,165,0) 100%);
+	background: black;
+	background: linear-gradient(90deg, rgb(13, 14, 14) 0%, rgba(170,176,170,0.3169642857142857) 0%, rgb(57, 59, 59) 0%, rgba(166,165,157,0) 100%, rgba(153,168,165,0) 100%);
 	justify-content: center;
 	display: flex;
 	margin: auto;
@@ -18,7 +18,7 @@
 }
 #titulo-2 {
 	background: rgb(177,196,195);
-	background: linear-gradient(90deg, rgba(177,196,195,1) 0%, rgba(170,176,170,0.3169642857142857) 0%, rgba(185,212,205,1) 0%, rgba(166,165,157,0) 100%, rgba(153,168,165,0) 100%);
+	background: linear-gradient(90deg, rgb(13, 14, 14) 0%, rgba(170,176,170,0.3169642857142857) 0%, rgb(57, 59, 59) 0%, rgba(166,165,157,0) 100%, rgba(153,168,165,0) 100%);
 	justify-content: center;
 	display: flex;
 	margin: auto;
@@ -28,7 +28,7 @@
 }
 #titulo-3 {
 	background: rgb(177,196,195);
-	background: linear-gradient(90deg, rgba(177,196,195,1) 0%, rgba(170,176,170,0.3169642857142857) 0%, rgba(185,212,205,1) 0%, rgba(166,165,157,0) 100%, rgba(153,168,165,0) 100%);
+	background: linear-gradient(90deg, rgb(13, 14, 14) 0%, rgba(170,176,170,0.3169642857142857) 0%, rgb(57, 59, 59) 0%, rgba(166,165,157,0) 100%, rgba(153,168,165,0) 100%);
 	justify-content: center;
 	display: flex;
 	margin: auto;
@@ -38,7 +38,7 @@
 }
 #titulo-4 {
 	background: rgb(177,196,195);
-	background: linear-gradient(90deg, rgba(177,196,195,1) 0%, rgba(170,176,170,0.3169642857142857) 0%, rgba(185,212,205,1) 0%, rgba(166,165,157,0) 100%, rgba(153,168,165,0) 100%);
+	background: linear-gradient(90deg, rgb(13, 14, 14) 0%, rgba(170,176,170,0.3169642857142857) 0%, rgb(57, 59, 59) 0%, rgba(166,165,157,0) 100%, rgba(153,168,165,0) 100%);
 	justify-content: center;
 	align-items: center;
 	display: flex;
@@ -51,13 +51,14 @@
 a {
 	&:hover {
 		font-weight: bold;
-		background-color: blue;
-		color: white;
-		text-decoration: underline;
+		background-color: rgb(122, 122, 126);
+		color: rgb(100, 97, 97);
+		transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+		text-decoration: none;
 		display: inline-block;
 	}
 	&:visited {
-		color: #999999;
+		color: #6d6a6a;
 	}
 	&:active {
 		background-color: yellow;
@@ -66,12 +67,12 @@ a {
 }
 p {
 	&::first-line {
-		color: red;
+		color: rgb(8, 8, 8);
 		font-variant: small-caps;
 	}
 }
-@media (max-width: 768px) {
+@media (max-inline-size: 768px) {
 	.miestilo {
-		background-color: red;
+		background-color: rgb(255, 0, 0);
 	}
 }

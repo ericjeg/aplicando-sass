@@ -1,6 +1,18 @@
-$color-titulo: yellow;
+$color-titulo: rgb(241, 241, 240);
 $color-de-fondo: black;
+$color-titulos: blue;
 $fuente-altura: 30px;
-
+    
 $color-gris: #333;
 $fuente-principal: 'Open Sans', sans-serif;
+
+h2 {
+    color: $color-titulos
+    
+    
+
+}
+
+h1{ 
+        color: $color-titulo
+}
