@@ -55,7 +55,7 @@ a {
 		color: rgb(100, 97, 97);
 		transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 		text-decoration: none;
-		display: inline-block;
+		display: block;
 	}
 	&:visited {
 		color: #6d6a6a;
@@ -67,7 +67,7 @@ a {
 }
 p {
 	&::first-line {
-		color: rgb(8, 8, 8);
+		color: red;
 		font-variant: small-caps;
 	}
 }
