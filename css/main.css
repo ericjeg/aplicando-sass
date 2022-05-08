@@ -1,11 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
 @import "https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&family=PT+Serif:ital,wght@0,700;1,700&display=swap";
-h2 {
-  color: blue; }
-
-h1 {
-  color: #f1f1f0; }
-
 #titulo-1 {
   background: black;
   background: linear-gradient(90deg, #0d0e0e 0%, rgba(170, 176, 170, 0.316964) 0%, #393b3b 0%, rgba(166, 165, 157, 0) 100%, rgba(153, 168, 165, 0) 100%);
